@@ -1,2 +1,5 @@
-# Exercicios
- Phyton Modulo 1 Curso em Video
+# Exercícios
+ 
+ Phyton Modulo 1 Curso em Vídeo
+
+ Estudando através de exercícios praticos -modulo 1

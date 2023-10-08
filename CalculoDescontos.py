@@ -4,4 +4,8 @@ d = preco*0.05
 valor2= preco-d
 valor3= preco*0.95
 
+print(5*"----------------------------")
+
 print ('O preço do produto é R$ {:.2f} o desconto de 5% tira R$ {} e novo valor fica R$ {}'.format (preco,d,valor2))
+
+print(5*"----------------------------")

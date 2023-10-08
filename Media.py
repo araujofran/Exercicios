@@ -6,4 +6,4 @@ print ('A segunda nota foi : {}'.format(n2))
 
 media = (n1+n2)/2
 
-print ('A média {}'.format (media))
+print ('A média {:.0f}'.format (media))

@@ -1,5 +1,7 @@
 import math
 
+import emoji
+
 num = float (input('Digite um numero: '))
 
 raiz = math.sqrt (num)

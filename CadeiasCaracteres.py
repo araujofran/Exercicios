@@ -1,3 +1,5 @@
+import random
+
 frase = (       'Curso em Video Python'    )
 print (frase[:21])
 print(len(frase))
@@ -13,5 +15,10 @@ print (frase.lower())
 print (frase.capitalize())
 print(frase.strip())
 print(frase.rstrip())
+
 print(frase.split())
-print('****'.join(frase))
+print ('-'.join(frase))
+
+lista = frase.split()
+random.shuffle (lista)
+print (lista)

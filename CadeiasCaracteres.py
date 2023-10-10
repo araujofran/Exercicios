@@ -1,2 +1,6 @@
 frase = ('Curso em Video Python')
-print (frase[9:21:2])
+print (frase[:21])
+print(len(frase))
+print (frase.count('o'))
+print (frase.count('o',0,13))
+print (frase.find('Vid'))

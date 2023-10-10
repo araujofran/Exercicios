@@ -1,7 +1,9 @@
 import random
 
 frase = (       'Curso em Video Python'    )
-print (frase[:21])
+print (frase[:13])
+
+
 print(len(frase))
 print (frase.count('o'))
 print (frase.count('o',0,13))

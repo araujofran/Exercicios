@@ -1,10 +1,16 @@
 cidade = str(input ('Digite o nome de uma cidade: ')).strip()
 
-print (" O nome da cidade {} contém palavra Santo? {} ".format(cidade,('Santo' in cidade))) # existe santo no nome da cidade
+print ('A cidade contem SANTO no inicio?')
+print (cidade[:5].upper()== 'SANTO')
 
-cidade.find('Santo') # Santo esta na posição zero?
 
-print ('A cidade começa com a palavra Santo? {}'. format(cidade.find('Santo')==(0)))# Santo esta na posição zero?
+print (" O nome da cidade {} contém palavra Santo? {} ".format(cidade,('SANTO' in cidade.upper()))) # existe santo no nome da cidade
+
+cidade.find('SANTO') # Santo esta na posição zero?
+
+cidade = cidade.upper()
+
+print ('A cidade começa com a palavra Santo? {}'. format(cidade.find('SANTO')==(0)))# Santo esta na posição zero?
 
 # seu primeiro nome tem 
 
